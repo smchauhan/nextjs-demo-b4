@@ -5,7 +5,6 @@ import { ProductsData } from "/data/ProductsData";
 import Link from "next/link";
 
 const Product = () => {
-  console.log(ProductsData);
   return (
     <div>
       <h3>Products</h3>

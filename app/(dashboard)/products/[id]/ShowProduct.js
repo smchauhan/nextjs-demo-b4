@@ -7,8 +7,6 @@ import { ProductsData } from "/data/ProductsData";
 const ShowProduct = ({ id }) => {
   const [count, setCount] = useState(100);
   const product = ProductsData.filter((item) => item.id === parseInt(id));
-  console.log(product);
-  console.log("Id : " + typeof id);
   return (
     <div>
       List of the products <hr />
